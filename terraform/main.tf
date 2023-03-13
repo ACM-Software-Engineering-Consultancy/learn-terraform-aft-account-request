@@ -6,12 +6,12 @@ module "sandbox" {
     AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "annacrierlearning+sandbox1@gmail.com"
-    SSOUserFirstName          = "Sandbox 1"
+    SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "Learn Tutorial" = "AFT-tag"
   }
 
   change_management_parameters = {
